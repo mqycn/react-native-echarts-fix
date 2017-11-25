@@ -9,6 +9,8 @@
 **图表加载时的白屏问题**
 
   使用了 和 Echart 一样的定义接口。传入 option时，设置 backgroundColor 即可
+
+  如果不指定 option.backgroundColor，则背景为透明
   
 ```
   // code...

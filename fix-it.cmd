@@ -13,6 +13,7 @@ echo.
 echo Fix Native Echarts...
 set echarts-path=native-echarts\src\components\Echarts\
 
+echo.
 echo Copying index.js...
 copy %echarts-path%index.js %node_modules%%echarts-path%
 
@@ -20,7 +21,8 @@ if not exist %android-assets%echarts echo Create Folder assets\echarts ...
 if not exist %android-assets% mkdir %android-assets%
 if not exist %android-assets%echarts mkdir %android-assets%echarts
 
-echo Copying index.js...
+echo.
+echo Copying tpl.html...
 copy %node_modules%%echarts-path%tpl.html %android-assets%echarts
 
 echo.
