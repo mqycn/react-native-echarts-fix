@@ -1,6 +1,6 @@
 # 一键修复 react-native-echarts 各种小问题
 
-**和安装正式版不能加载的问题**
+**安卓打包正式版不能加载的问题**
 
   本工具参考：[debug正常，但是release还是不显示](https://github.com/somonus/react-native-echarts/issues/12)
   
