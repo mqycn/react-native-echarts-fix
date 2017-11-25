@@ -32,6 +32,8 @@
 
 **使用说明**
 
+![](help.png)
+
 现在只支持 Windows 下的自动修复
 
 需要将本工具安装到 您的 APP 根目录，然后运行 react-native-echarts-fix/fix-it.cmd
